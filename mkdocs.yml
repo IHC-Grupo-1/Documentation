@@ -1,1 +1,15 @@
-site_name: My Docs
+site_name: IHC Documentation
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  palette:
+    - primary: orange   
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
