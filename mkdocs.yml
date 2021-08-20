@@ -5,7 +5,7 @@ theme:
   features:
     - navigation.tabs
   palette:
-    - primary: orange   
+    - primary: default   
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -13,3 +13,13 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+nav: 
+  - Inicio: ./index.md
+  - Documento de Visão: ./doc_visão.md
+  - Metas de Usabilidade: ./metas_de_usabilidade.md
+  - Backlog: ./backLog.md
+  - Análise Hierárquica: ./análise_hierárquica_de_visualização.md

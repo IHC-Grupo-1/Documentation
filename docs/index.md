@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Seja Bem Vindo!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Você se encontra na documentação do projeto do grupo 1 da matéria de Interação Humano Computador da Universidade de Brasília, campus Gama.
 
-## Commands
+Aqui estarão disponiveis documentos e informações como nossos(as):
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* [Documento de Visão](./doc_visão.md);
+* [Metas de Usabilidade ](./metas_de_usabilidade.md);
+* [Backlog](./backLog.md);
+* [Análises Hierárquicas de Visualização](./análise_hierárquica_de_visualização.md)
 
-## Project layout
+## Integrantes
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Esse projeto foi desenvolvido por estudantes do curso de Engenharia de Software da Universidade de Brasília.
+
+| Nome | Semestre | github |
+| ---- | ------ | ------ |
+|Gabriel Sabanai Trindade| 5 semestre | [Sabanai104](https://github.com/Sabanai104)|
+|Cibele Freitas Goudinho| 6 semestre | [CibeleG](https://github.com/CibeleG)|
+|Felipe Boccardi Silva Agustini| 6 semestre | [Fealps](https://github.com/Fealps)|
+|Victor Buendia Cruz de Alvim | 5 semestre | [Victor-Buendia](https://github.com/Victor-Buendia)|
+|Arthur Talles da Rocha de Oliveira | 5 semestre | [art1505](https://github.com/art1505) |
+| Antônio Neto | 5 semestr | [antoniotoineto](https://github.com/antoniotoineto)|
