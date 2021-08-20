@@ -19,5 +19,6 @@ Esse projeto foi desenvolvido por estudantes do curso de Engenharia de Software 
 |Cibele Freitas Goudinho| 6 semestre | [CibeleG](https://github.com/CibeleG)|
 |Felipe Boccardi Silva Agustini| 6 semestre | [Fealps](https://github.com/Fealps)|
 |Victor Buendia Cruz de Alvim | 5 semestre | [Victor-Buendia](https://github.com/Victor-Buendia)|
-|Arthur Talles da Rocha de Oliveira | 5 semestre | [art1505](https://github.com/art1505) |
-| Antônio Neto | 5 semestr | [antoniotoineto](https://github.com/antoniotoineto)|
+|Arthur Talles de Sousa Cunha | 5 semestre | [art1505](https://github.com/art1505) |
+| Antônio Neto | 5 semestre | [antoniotoineto](https://github.com/antoniotoineto)|
+| Davi Matheus da Rocha de Oliveira | 5 semestre | [DaviMatheus](https://github.com/DaviMatheus) |
