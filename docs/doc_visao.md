@@ -58,6 +58,7 @@ Esse processo de desenvolvimento, tem como entrega final, cuja data limite é a 
 |Perfil|Tipo de Hardware|Configurações|Quantidade planejada|
 |-|-|-|-|
 |Todos os perfis planejados|Computador|i5 6º geração 4GB de RAM|07
+
 ### 3.2. Software
 |Perfil|Tipo de Software|Nome da ferramenta|Versão|
 |-|-|-|-|

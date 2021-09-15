@@ -18,12 +18,14 @@ Abaixo a representação do diagrama anterior em forma de tabela:
 |1.2. Efetuar cadastro|*Plano:* acessar a conta com os dados informados. |
 |2. Cadastrar com google ou facebook|*Input:* email e senha do google/facebook. *Plano:* informar dados de cadastro a partir do google ou facebook e depois permitir que acesse a conta. |
 |2.1. Acessar sua conta do google ou facebook|*Input:* email e senha. *Plano:* acessar a conta com dados do google ou facebook. |
+
 ## Login
 O diagrama AHT a seguir apresenta o login para o nosso projeto:
 
 ![Login](./assets/anHie2.png)
 
 Abaixo a representação do diagrama anterior em forma de tabela:
+
 |Objetivos/Operações|Problemas e Recomendações|
 |-|-|
 |0. Realizar Login 1/2|*Input:* email e senha. *Plano:* informar dados de login e depois permitir que acesse a conta. |
@@ -38,6 +40,7 @@ Abaixo a representação do diagrama anterior em forma de tabela:
 |2.2.2.1. Inserir nova senha e confirmar|*Plano:* inserir nova senha e confirmar. |
 |3. Logar com o google ou facebook|*Input:* email e senha do google ou facebook. *Plano:* informar dados de login do google ou facebook e depois acessar a conta. |
 |3.1. Acessar sua conta do google ou facebook|*Plano:* acessar a conta com od dados de login do google ou facebook. |
+
 ## Visualizar informações de uma cidade
 Os diagramas AHT a seguir apresentam como visualizar as informações de uma cidade no nosso projeto:
 
@@ -67,6 +70,7 @@ Abaixo a representação do diagrama anterior em forma de tabela:
 |1.2.2.2.6.1.1. Digitar no campo o dinheiro a ser convertido|*Input:* quantia de dinheiro. *Plano:* informar a quantidade de dinheiro a ser convertido. |
 |1.2.2.2.6.1.2. Selecionar a moeda que deseja converter para a moeda do local selecionado|*Input:* moeda a ser convertida. *Plano:* informar a moeda a ser convertido. |
 |1.2.2.2.6.1.3. Visualizar a quantia na moeda do local selecionado |*Plano:* visualizar a conversão da moeda selecionada para a local. |
+
 ## Visualizar insígnias
 Os diagramas AHT a seguir apresentam como visualizar as insígnias no nosso projeto:
 
