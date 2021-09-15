@@ -4,10 +4,10 @@ Você se encontra na documentação do projeto do grupo 1 da matéria de Intera�
 
 Aqui estarão disponiveis documentos e informações como nossos(as):
 
-* [Documento de Visão](./doc_visão.md);
+* [Documento de Visão](./doc_visao.md);
 * [Metas de Usabilidade ](./metas_de_usabilidade.md);
 * [Backlog](./backLog.md);
-* [Análises Hierárquicas de Visualização](./análise_hierárquica_de_visualização.md)
+* [Análises Hierárquicas de Visualização](./analise_hierarquica.md)
 
 ## Integrantes
 
