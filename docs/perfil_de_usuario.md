@@ -78,6 +78,47 @@ A partir de todos os dados acima, podemos traçar um perfil do usuário do aplic
 | Você prefere utilizar em viagens:        | Por uma grande margem, as pessoas preferem viajar utilizando a internet e aplicativos, apresentando 86,4% do total, em que 11,7% não utilizam nada e surpreendentemente ninguém marcou que prefere utilizar guias e mapas físicos.                                   |
 | Com quais palavras você mais se encaixa: | Com duas respostas bem divididas a opção mais escolhida foi: Aventureiro, novas experiências e “topa tudo”, com 41,7% dos votos, porém logo em seguida os usuários marcaram a opção: Caseiro, Doméstico, “conforto de casa” .                                        |
 
+## Alfa de Cronbach
+
+Antes de descrevermos o processo por nós utilizado para o cálculo do Alfa de Cronbach, é importante que o conceituemos  e apresentemos a importância de sua aplicabilidade para o projeto. 
+
+O coeficiente alfa de Cronbach foi apresentado por Lee J. Cronbach, em 1951, como uma forma de estimar a confiabilidade de um questionário aplicado em uma pesquisa. Ele mede a correlação entre respostas em um questionário através da análise das respostas dadas pelos respondentes, apresentando uma correlação média entre as perguntas. O coeficiente α é calculado a partir da variância dos itens individuais e da variância da soma dos itens de cada avaliador de todos os itens de um questionário que utilizem a mesma escala de medição.
+
+Para a realização do cálculo do coeficiente, é necessário primeiro que as respostas passem por um processo de avaliação. Corriqueiramente, tal processo é efetuado por meio da escala Likert, na qual as respostas obtidas possuem um valor de 1 a 5, atribuído com base em critérios como concordância, frequência, importância, satisfação,prioridades e vários outros.
+
+Levando-se em conta que não se trata de um questionário avaliativo, mas sim de análise do perfil de usuário mais comum entre as respostas, achamos por bem atribuir a pontuação de acordo com o nível de aparição das respostas dentro do questionário.
+
+Para facilitar o processo de cálculo, organizamos em uma tabela as pontuações referentes às respostas obtidas da seguinte maneira: 
+
+![TabelaLkert1](./assets/AlfaCronbachPerfilUser/TabelaLikert1.PNG)
+![TabelaLkert2](./assets/AlfaCronbachPerfilUser/TabelaLikert2.PNG)
+![TabelaLkert3](./assets/AlfaCronbachPerfilUser/TabelaLikert3.PNG)
+
+Como pode-se perceber, seria uma tarefa muito difícil realizar manualmente os cálculos da 103 respostas sem obter nenhum erro. Por isso, fizemos uso do software "IBM SPSS",uma potente plataforma de software estatístico. Entrega um conjunto robusto de recursos que permitem que uma determinada empresa ou indivíduo extraia insights acionáveis a partir de seus dados.
+
+### IBM SPSS
+![LogoSPSS](./assets/AlfaCronbachPerfilUser/logoSPSS.PNG)
+
+Com o auxíĺio deste potente software, o cálculo do Alfa de Cronbach tornou-se automatizado e de fácil compreensão, evitando assim eventuais erros humanos:
+
+![AlfaCronbach](./assets/AlfaCronbachPerfilUser/alfadeCronbach.PNG)
+
+O resultado obtido (0,573) representa um resultado de confiabilidade moderado. Isso se dá pela variação encontrada no que diz respeito à atribuição de pontuação para cada resposta. É um resultado compreensível, tendo em vista a flexbilização de critérios para a realização dos cálculos, além da grande quantidade de respostas obtidas.   
+
+Além deste importante resultado, o "IBM SPSS" possibilitou a obtenção de outros importantes cálculos como a análise descritiva de valores médios da tabela, itens estatísticos como média e desvio padrão, tabela de correlação das pontuações e possíveis resultados a partir da exclusão de um item:
+
+* Análise Descritiva:
+![AnaliseDescritiva](./assets/AlfaCronbachPerfilUser/AnaliseDescritivaValoresMedios.PNG)
+
+* Itens Estatísticos (Média e Desvio Padrão) :
+![ItensEstatísticos](./assets/AlfaCronbachPerfilUser/itensEstatisticosMediaDP.PNG)
+
+* Tabela de Correlação:
+![TabelaCorrelação](./assets/AlfaCronbachPerfilUser/TabelaCorrelacao.PNG)
+
+* Resultados a partir da exclusão de um item:
+![Caso1ItemSejaExcluido](./assets/AlfaCronbachPerfilUser/CasoAlgumItemsejaExcluido.PNG)
+
 ## Conclusão
 
 Pode-se então concluir que a maioria dos usuários possuem entre 18 e 25 anos, tendo uma distribuição bem igual entre homens e mulheres, em que esses são geralmente estudantes, solteiros(as) , sem filhos. Viajam apenas 1 vez ao ano, provavelmente por lazer e nessas viagens eles preferem utilizar aplicativos e a internet para poderem se guiar.
