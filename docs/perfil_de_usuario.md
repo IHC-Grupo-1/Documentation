@@ -108,15 +108,19 @@ O resultado obtido (0,573) representa um resultado de confiabilidade moderado. I
 Além deste importante resultado, o "IBM SPSS" possibilitou a obtenção de outros importantes cálculos como a análise descritiva de valores médios da tabela, itens estatísticos como média e desvio padrão, tabela de correlação das pontuações e possíveis resultados a partir da exclusão de um item:
 
 * Análise Descritiva:
+
 ![AnaliseDescritiva](./assets/AlfaCronbachPerfilUser/AnaliseDescritivaValoresMedios.PNG)
 
 * Itens Estatísticos (Média e Desvio Padrão) :
+
 ![ItensEstatísticos](./assets/AlfaCronbachPerfilUser/itensEstatisticosMediaDP.PNG)
 
 * Tabela de Correlação:
+
 ![TabelaCorrelação](./assets/AlfaCronbachPerfilUser/TabelaCorrelacao.PNG)
 
 * Resultados a partir da exclusão de um item:
+
 ![Caso1ItemSejaExcluido](./assets/AlfaCronbachPerfilUser/CasoAlgumItemsejaExcluido.PNG)
 
 ## Conclusão
