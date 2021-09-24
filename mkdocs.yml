@@ -5,7 +5,7 @@ theme:
   features:
     - navigation.tabs
   palette:
-    - primary: default   
+    - primary: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -17,7 +17,7 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-nav: 
+nav:
   - Inicio: ./index.md
   - Documento de Visão: ./doc_visao.md
   - Metas de Usabilidade: ./metas_de_usabilidade.md
@@ -25,3 +25,4 @@ nav:
   - Perfil de Usuario: ./perfil_de_usuario.md
   - Análise Hierarquica: ./analise_hierarquica.md
   - Guia de Estilo: ./guia_estilo.md
+  - Storyboard: ./storyboard.md
