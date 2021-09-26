@@ -60,7 +60,7 @@ O coeficiente alfa de Cronbach foi apresentado por Lee J. Cronbach, em 1951, com
 
 Para a realização do cálculo do coeficiente, é necessário primeiro que as respostas passem por um processo de avaliação. Corriqueiramente, tal processo é efetuado por meio da escala Likert, na qual as respostas obtidas possuem um valor de 1 a 5, atribuído com base em critérios como concordância, frequência, importância, satisfação,prioridades e vários outros.
 
-Levando-se em conta que não se trata de um questionário avaliativo, mas sim de análise do perfil de usuário mais comum entre as respostas, achamos por bem atribuir a pontuação de acordo com o nível de aparição das respostas dentro do questionário.
+Levando-se em conta a natureza das respostas deste questionário, atribuímos pontuações de 1 a 3 para cada uma obtida. Tais pontuações foram atribuídas com base no nível concordância de cada resposta dentro do questionário.
 
 Para facilitar o processo de cálculo, organizamos em uma tabela as pontuações referentes às respostas obtidas da seguinte maneira: 
 
