@@ -26,3 +26,5 @@ nav:
   - Análise Hierarquica: ./analise_hierarquica.md
   - Guia de Estilo: ./guia_estilo.md
   - Storyboard: ./storyboard.md
+  - Protótipos:
+      - Protótipo de papel: "./protótipo_de_papel.md"
