@@ -95,6 +95,28 @@ Além deste importante resultado, o "IBM SPSS" possibilitou a obtenção de outr
 
 ![Caso1ItemSejaExcluido](./assets/AlfaCronbachStoryboard/CasoExcluaAlgumaColuna.PNG)
 
+
+### RStudio
+![LogoRStudio](./assets/AlfaCronbachStoryboard/RStudioLogo.png)
+
+Por meio deste software livre, de ambiente de desenvolvimento integrado para a linguagem de programação R, a realização de gráficos e análises estatísticas para nosso questionário também foi facilitada e otimizada. Desta forma, o auxílio deste software foi de extrema importância para o processo de validação do questionário realizado, com base nas respostas obtidas.
+
+Também fazendo uso da tabela com atribuição de pontuação de 1 a 3 (Escala Likert) para as respostas, realizamos os comandos necessários para que o software realizasse a leitura do documento e fizesse o posterior cálculo do Alfa de Cronbach relativo ao arquivo: 
+
+* Código utilizado:
+
+![Codigo](./assets/AlfaCronbachStoryboard/CodigoAlfaStoryboard.PNG)
+
+* Alfa obtido através da função "cronbach()" :
+
+![AlfaCronbach](./assets/AlfaCronbachStoryboard/Cronbach.PNG)
+
+* Alfa obtido através da função "alpha()" :
+
+![Alpha](./assets/AlfaCronbachStoryboard/AlfaStory.PNG)
+
+Desta forma, pode-se perceber que em ambos os softwares o cálculo do coeficiente resulta em um "std. alpha" equivalente a 0,71, valor considerado satisfatório, validando assim o questionário realizado.
+
 ## Conclusão
 
 Pode-se então concluir que a proposta foi bem clara, em que a proposta do projeto foi bem apresentada através do Storyboard. De acordo com a pesquisa, o aplicativo seria útil e usado pelos viajantes e as principais mais funcionalidades exigidas pelos usuários foram: os Mapas, as Avaliações e Feedbacks e as Listas, sugestões e recomendações, e por fim os aspectos de interação mais comentados foram: a praticidade, a facilidade e a Intuitividade.
