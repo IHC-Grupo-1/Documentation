@@ -27,4 +27,6 @@ nav:
   - Guia de Estilo: ./guia_estilo.md
   - Storyboard: ./storyboard.md
   - Protótipos:
-      - Protótipo de papel: "./protótipo_de_papel.md"
+      - Protótipo de Papel: "./protótipo_de_papel.md"
+      - Protótipo de Média: "./protótotipo_de_média.md"
+      - Protótipo de Alta
