@@ -26,6 +26,7 @@ nav:
   - Análise Hierarquica: ./analise_hierarquica.md
   - Guia de Estilo: ./guia_estilo.md
   - Storyboard: ./storyboard.md
+  - Processo de Deign: ./processo_de_design.md
   - Protótipos:
       - Protótipo de Papel: "./protótipo_de_papel.md"
       - Protótipo de Média: "./protótotipo_de_média.md"
