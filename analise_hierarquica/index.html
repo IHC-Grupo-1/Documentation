@@ -1,0 +1,1005 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+    
+    
+      
+        <title>Análise Hierarquica - IHC Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.db9e7362.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="default" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analise-hierarquica-de-visualizacao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="IHC Documentation" class="md-header__button md-logo" aria-label="IHC Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Análise Hierarquica
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="" data-md-color-primary="default" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../doc_visao/" class="md-tabs__link">
+      Documento de Visão
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../metas_de_usabilidade/" class="md-tabs__link md-tabs__link--active">
+        Análise de Requisitos
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../guia_estilo/" class="md-tabs__link">
+        Design, Avaliação e Desenvolvimento
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../prot%C3%B3tipo_de_papel/" class="md-tabs__link">
+        Protótipos
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="IHC Documentation" class="md-nav__button md-logo" aria-label="IHC Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    IHC Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../doc_visao/" class="md-nav__link">
+        Documento de Visão
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Análise de Requisitos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Análise de Requisitos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Análise de Requisitos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metas_de_usabilidade/" class="md-nav__link">
+        Metas de Usabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backLog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil_de_usuario/" class="md-nav__link">
+        Perfil de Usuario
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Análise Hierarquica
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Análise Hierarquica
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cadastro" class="md-nav__link">
+    Cadastro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    Login
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizar-informacoes-de-uma-cidade" class="md-nav__link">
+    Visualizar informações de uma cidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizar-insignias" class="md-nav__link">
+    Visualizar insígnias
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Design, Avaliação e Desenvolvimento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Design, Avaliação e Desenvolvimento" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Design, Avaliação e Desenvolvimento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia_estilo/" class="md-nav__link">
+        Guia de Estilo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storyboard/" class="md-nav__link">
+        Storyboard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../processo_de_design/" class="md-nav__link">
+        Processo de Deign
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Protótipos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Protótipos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Protótipos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prot%C3%B3tipo_de_papel/" class="md-nav__link">
+        Protótipo de Papel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prot%C3%B3totipo_de_m%C3%A9dia/" class="md-nav__link">
+        Protótipo de Média
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prot%C3%B3tipo_de_alta/" class="md-nav__link">
+        Protótipo de Alta
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cadastro" class="md-nav__link">
+    Cadastro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    Login
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizar-informacoes-de-uma-cidade" class="md-nav__link">
+    Visualizar informações de uma cidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizar-insignias" class="md-nav__link">
+    Visualizar insígnias
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="analise-hierarquica-de-visualizacao">Análise hierárquica de visualização</h1>
+<p>A  idéia  básica  desta  análise  é  relacionar  o que  as  pessoas  fazem  (tarefas), por que o fazem e quais as conseqüências, caso não façam corretamente. O ponto de partida desta análise são os objetivos do usuário. A partir de um objetivo, as principais tarefas associadas ao alcance deste objetivo são identificadas. Neste contexto, uma tarefa pode ser vista como qualquer parte do trabalho que precisa  ser  realizada –  um plano,  ou  seja,  são  os  subobjetivos  de  um  objetivo.
+O  objetivo que  não possui  nenhum  subobjetivo  (tarefa  não  mais  decomposta)  é denominado operação –  unidade  fundamental  em  AHT.  A  representação  gráfica  de objetivos/tarefas  é  um  retângulo, assim   como   tarefas   que   não   são   mais   decompostas,   ou   seja,   operações,   são representadas por retângulos com uma linha horizontal sob o mesmo. As relações entre os subobjetivos possuem a representação apresentada a seguir:</p>
+<p><img alt="Relações" src="../assets/relacao.jpg" /></p>
+<h2 id="cadastro">Cadastro</h2>
+<p>O diagrama AHT a seguir apresenta o cadastro para o nosso projeto:</p>
+<p><img alt="Cadastro" src="../assets/anHie1.png" /></p>
+<p>Abaixo a representação do diagrama anterior em forma de tabela:</p>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Cadastrar 1/2</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> informar dados de cadastro e depois permitir que acesse a conta.</td>
+</tr>
+<tr>
+<td>1. Informar dados de cadastro 1&gt;2</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> informar dados de cadastro e depois permitir que acesse a conta.</td>
+</tr>
+<tr>
+<td>1.1. Inserir nome, email e senha</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> informar dados de cadastro.</td>
+</tr>
+<tr>
+<td>1.2. Efetuar cadastro</td>
+<td><em>Plano:</em> acessar a conta com os dados informados.</td>
+</tr>
+<tr>
+<td>2. Cadastrar com google ou facebook</td>
+<td><em>Input:</em> email e senha do google/facebook. <em>Plano:</em> informar dados de cadastro a partir do google ou facebook e depois permitir que acesse a conta.</td>
+</tr>
+<tr>
+<td>2.1. Acessar sua conta do google ou facebook</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> acessar a conta com dados do google ou facebook.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="login">Login</h2>
+<p>O diagrama AHT a seguir apresenta o login para o nosso projeto:</p>
+<p><img alt="Login" src="../assets/anHie2.png" /></p>
+<p>Abaixo a representação do diagrama anterior em forma de tabela:</p>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Realizar Login 1/2</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> informar dados de login e depois permitir que acesse a conta.</td>
+</tr>
+<tr>
+<td>1. Informar seus dados 1&gt;2</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> informar dados de login.</td>
+</tr>
+<tr>
+<td>1.1. Informar seu email e senha</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> informar dados de login.</td>
+</tr>
+<tr>
+<td>1.2. Entrada no perfil</td>
+<td><em>Plano:</em> acessar a conta com os dados de login.</td>
+</tr>
+<tr>
+<td>2. Recuperar sua senha 1&gt;2</td>
+<td><em>Input:</em> email. <em>Plano:</em> informar email e depois enviar um link de recuperação de senha, acessar o link e por último inserir nova senha e confirmar.</td>
+</tr>
+<tr>
+<td>2.1. Informar seu email</td>
+<td><em>Input:</em> email. <em>Plano:</em> informar seu email e depois enviar link de recuperação de senha.</td>
+</tr>
+<tr>
+<td>2.2. Acessar o link de recuperação de senha 1&gt;2</td>
+<td><em>Plano:</em> acessar o link e depois inserir nova senha e confirmar.</td>
+</tr>
+<tr>
+<td>2.2.1. Acessar o email cadastrado e clicar no link</td>
+<td><em>Plano:</em> acessar o link pelo email cadastrado e depois inserir nova senha e confirmar.</td>
+</tr>
+<tr>
+<td>2.2.2. Redefinir a senha</td>
+<td><em>Plano:</em> inserir nova senha.</td>
+</tr>
+<tr>
+<td>2.2.2.1. Inserir nova senha e confirmar</td>
+<td><em>Plano:</em> inserir nova senha e confirmar.</td>
+</tr>
+<tr>
+<td>3. Logar com o google ou facebook</td>
+<td><em>Input:</em> email e senha do google ou facebook. <em>Plano:</em> informar dados de login do google ou facebook e depois acessar a conta.</td>
+</tr>
+<tr>
+<td>3.1. Acessar sua conta do google ou facebook</td>
+<td><em>Plano:</em> acessar a conta com od dados de login do google ou facebook.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="visualizar-informacoes-de-uma-cidade">Visualizar informações de uma cidade</h2>
+<p>Os diagramas AHT a seguir apresentam como visualizar as informações de uma cidade no nosso projeto:</p>
+<p><img alt="Cidade1" src="../assets/anHie3.png" /></p>
+<p><img alt="Cidade1.1" src="../assets/anHie4.png" /></p>
+<p>Abaixo a representação do diagrama anterior em forma de tabela:</p>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Visualizar informações de uma cidade</td>
+<td><em>Plano:</em> informar dados da cidade escolhida.</td>
+</tr>
+<tr>
+<td>1. Selecionar continente 1&gt;2</td>
+<td><em>Input:</em> continente. <em>Plano:</em> selecionar continente.</td>
+</tr>
+<tr>
+<td>1.1. Clicar no continente com o nome desejado</td>
+<td><em>Input:</em> continente. <em>Plano:</em> selecionar continente desejado.</td>
+</tr>
+<tr>
+<td>1.2. Selecionar país 1&gt;2</td>
+<td><em>Input:</em> país. <em>Plano:</em> selecionar país desejado.</td>
+</tr>
+<tr>
+<td>1.2.1. Clicar no país com o nome desejado</td>
+<td><em>Input:</em> país. <em>Plano:</em> selecionar país desejado.</td>
+</tr>
+<tr>
+<td>1.2.2. Selecionar cidade 1&gt;2</td>
+<td><em>Input:</em> cidade. <em>Plano:</em> selecionar cidade desejada.</td>
+</tr>
+<tr>
+<td>1.2.2.1. Clicar na cidade com o nome desejado</td>
+<td><em>Input:</em> cidade. <em>Plano:</em> selecionar cidade desejada.</td>
+</tr>
+<tr>
+<td>1.2.2.2.Visualizar informações da cidade 1+2</td>
+<td><em>Input:</em> cidade. <em>Plano:</em> visualizar informações da cidade.</td>
+</tr>
+<tr>
+<td>1.2.2.2.1. Visualizar descrição</td>
+<td><em>Plano:</em> visualizar descrição da cidade.</td>
+</tr>
+<tr>
+<td>1.2.2.2.2. Visualizar melhores restaurantes, bares</td>
+<td><em>Plano:</em> visualizar os melhores restaurantes e bares da cidade selecionada.</td>
+</tr>
+<tr>
+<td>1.2.2.2.3. Visualizar histórico da cidade</td>
+<td><em>Plano:</em> visualizar histórico da cidade.</td>
+</tr>
+<tr>
+<td>1.2.2.2.4. Visualizar melhores pontos turísticos</td>
+<td><em>Plano:</em> visualizar melhores pontos turísticos da cidade.</td>
+</tr>
+<tr>
+<td>1.2.2.2.5.  Visualizar melhores épocas do ano</td>
+<td><em>Plano:</em> visualizar melhores épocas do ano da cidade.</td>
+</tr>
+<tr>
+<td>1.2.2.2.6. Converter a moeda utilizada na cidade</td>
+<td><em>Input:</em> quantia desejada e moeda desejada. <em>Plano:</em> informar a quantidade de dinheiro a ser convertido de qual moeda para qual moeda e visualizar o resultado.</td>
+</tr>
+<tr>
+<td>1.2.2.2.6.1. Inserir a quantia a ser convertida 1+2</td>
+<td><em>Input:</em> quantia a ser convertida. <em>Plano:</em> informar a quantidade de dinheiro a ser convertido.</td>
+</tr>
+<tr>
+<td>1.2.2.2.6.1.1. Digitar no campo o dinheiro a ser convertido</td>
+<td><em>Input:</em> quantia de dinheiro. <em>Plano:</em> informar a quantidade de dinheiro a ser convertido.</td>
+</tr>
+<tr>
+<td>1.2.2.2.6.1.2. Selecionar a moeda que deseja converter para a moeda do local selecionado</td>
+<td><em>Input:</em> moeda a ser convertida. <em>Plano:</em> informar a moeda a ser convertido.</td>
+</tr>
+<tr>
+<td>1.2.2.2.6.1.3. Visualizar a quantia na moeda do local selecionado</td>
+<td><em>Plano:</em> visualizar a conversão da moeda selecionada para a local.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="visualizar-insignias">Visualizar insígnias</h2>
+<p>Os diagramas AHT a seguir apresentam como visualizar as insígnias no nosso projeto:</p>
+<p><img alt="insígnias" src="../assets/anHie5.png" /></p>
+<p>Abaixo a representação do diagrama anterior em forma de tabela:</p>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Visualizar insígnias</td>
+<td><em>Plano:</em> visualizar insígnias.</td>
+</tr>
+<tr>
+<td>1. Realizar Login</td>
+<td><em>Input:</em> email e senha. <em>Plano:</em> informar dados de login e depois permitir que acesse a conta.</td>
+</tr>
+<tr>
+<td>2. Acessar perfil 1&gt;2</td>
+<td><em>Plano:</em> acessar o perfil.</td>
+</tr>
+<tr>
+<td>2.1. Clicar na opção "meu perfil"</td>
+<td><em>Plano:</em> acessar o "meu perfil" e visualizar suas opções.</td>
+</tr>
+<tr>
+<td>2.2. Selecionar insígnias 1&gt;2</td>
+<td><em>Plano:</em> selecionar insígnias.</td>
+</tr>
+<tr>
+<td>2.2.1. Visualizar insígnias 1&gt;2</td>
+<td><em>Plano:</em> visualizar todas as insígnias já adquiridas.</td>
+</tr>
+<tr>
+<td>2.2.1.1. Clicar na insígnia</td>
+<td><em>Plano:</em> selecionar a insígnia específica que quer visualizar.</td>
+</tr>
+<tr>
+<td>2.2.1.1.1. Visualizar descrição da insígnia</td>
+<td><em>Plano:</em> visualizar informações da insígnia.</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../perfil_de_usuario/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Perfil de Usuario" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Perfil de Usuario
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../guia_estilo/" class="md-footer__link md-footer__link--next" aria-label="Next: Guia de Estilo" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Guia de Estilo
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>
